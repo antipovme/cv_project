@@ -1,0 +1,15 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_313">
+			<rect id="Name=icon-copy, Size=32, Theme Mode=Light" width="32.000000" height="32.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Name=icon-copy, Size=32, Theme Mode=Light" width="32.000000" height="32.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2_313)">
+		<path id="Vector" d="M26.66 10.66C28.13 10.66 29.33 11.86 29.33 13.33L29.33 26.66C29.33 28.13 28.13 29.33 26.66 29.33L13.33 29.33C11.86 29.33 10.66 28.13 10.66 26.66L10.66 13.33C10.66 11.86 11.86 10.66 13.33 10.66L26.66 10.66Z" stroke="#4B5563" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M5.33 21.33C3.86 21.33 2.66 20.13 2.66 18.66L2.66 5.33C2.66 3.86 3.86 2.66 5.33 2.66L18.66 2.66C20.13 2.66 21.33 3.86 21.33 5.33" stroke="#4B5563" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

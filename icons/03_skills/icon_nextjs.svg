@@ -1,0 +1,30 @@
+<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip316_285">
+			<rect width="64.000000" height="64.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="38.755497" y1="41.422176" x2="51.377731" y2="57.066616" id="paint_linear_316_291_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient x1="43.022251" y1="19.199961" x2="42.951145" y2="37.999966" id="paint_linear_316_292_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect width="64.000000" height="64.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip316_285)">
+		<mask id="mask316_287" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="64.000000" height="64.000000">
+			<path d="M64 32C64 49.67 49.67 64 32 64C14.32 64 0 49.67 0 32C0 14.32 14.32 0 32 0C49.67 0 64 14.32 64 32Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<g mask="url(#mask316_287)">
+			<path d="M32 62.93C49.08 62.93 62.93 49.08 62.93 32C62.93 14.91 49.08 1.06 32 1.06C14.91 1.06 1.06 14.91 1.06 32C1.06 49.08 14.91 62.93 32 62.93Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M32 62.93C14.91 62.93 1.06 49.08 1.06 32C1.06 14.91 14.91 1.06 32 1.06C49.08 1.06 62.93 14.91 62.93 32C62.93 49.08 49.08 62.93 32 62.93Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="6.000000"/>
+			<path d="M53.15 56L24.58 19.2L19.2 19.2L19.2 44.78L23.5 44.78L23.5 24.66L49.77 58.61C50.96 57.81 52.09 56.94 53.15 56Z" fill="url(#paint_linear_316_291_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M40.88 19.2L45.15 19.2L45.15 44.79L40.88 44.79L40.88 19.2Z" fill="url(#paint_linear_316_292_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>

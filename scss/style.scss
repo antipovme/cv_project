@@ -1,0 +1,33 @@
+@import url('/scss/color.scss');
+@import url('/scss/shadows.scss');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1440px;
+}
+
+html {
+	font-family: "Inter";
+}
+
+.header_wrapper {
+    display: flex;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav_list {
+    display: flex;
+    flex-wrap: 1px;
+    list-style: none;
+	font-weight: 500;
+	font-style: 16px;
+    color: rgb(75, 85, 99);
+
+}
