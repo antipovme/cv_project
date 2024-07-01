@@ -1,33 +1,50 @@
 @import url('/scss/color.scss');
 @import url('/scss/shadows.scss');
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 1440px;
 }
 
 html {
 	font-family: "Inter";
 }
 
-.header_wrapper {
+.container {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 16px 0 16px;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.logo {
-    font-weight: 700;
-    font-size: 30px;
+.menu {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    &-list {
+        display: flex;
+        justify-content: space-around;
+        width: 1440px;
+        text-decoration: none;
+        &-item {
+            list-style: none;
+            font-weight: normal;
+            a {
+                text-decoration: none;
+                color: rgb(75, 85, 99);
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
 }
 
-.nav_list {
-    display: flex;
-    flex-wrap: 1px;
-    list-style: none;
-	font-weight: 500;
-	font-style: 16px;
-    color: rgb(75, 85, 99);
-
+.hello {
+    &-wrapper {
+        display: flex;
+    }
 }
