@@ -173,3 +173,37 @@ section {
         }
     }
 }
+
+.skills {
+    min-height: 560px;
+    span {
+        display: block;
+        margin: 16px 0 50px;
+        color: rgb(75, 85, 99);
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+    .wrapper-skills {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .skills-box {
+        width: auto;
+        height: auto;
+        text-align: center;
+
+        p {
+            padding-top: 10px;
+            color: rgb(75, 85, 99);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+}
