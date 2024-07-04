@@ -14,13 +14,34 @@ html {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 16px;
 }
+
+section {
+    padding: 96px 80px 96px 80px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        text-align: center;
+        padding: 4px 20px 4px 20px;
+        border-radius: 12px;
+        background: rgb(229, 231, 235);
+        color: rgb(75, 85, 99);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}
+
 
 .menu {
     display: flex;
     align-items: center;
     height: 30px;
+    margin: 16px 80px 16px 80px;
     &-list {
         display: flex;
         justify-content: space-around;
@@ -54,6 +75,7 @@ html {
         color: rgb(17, 24, 39);
         font-size: 60px;
         font-weight: 700;
+        text-shadow: 5px 5px rgba(75, 85, 99, 0.2);
     }
     &-text {
         padding-top: 5px;
@@ -64,13 +86,13 @@ html {
     &-location {
         margin-top: 50px;
         &-item-1 {
-            background: url(/icons/01_hero/icon_list_1.svg) no-repeat left top;
+            background: url(/icons/01_hello/icon_list_1.svg) no-repeat left top;
             padding: 2px 8px 2px 25px;
             list-style: none;
         }
         &-item-2 {
             margin-top: 10px;
-            background: url(/icons/01_hero/icon_list_2.png) no-repeat left top;
+            background: url(/icons/01_hello/icon_list_2.png) no-repeat left top;
             padding: 2px 8px 2px 25px;
             list-style: none;
         }
@@ -93,9 +115,34 @@ html {
         width: 280px;
         height: 320px;
         border: 8px solid rgb(255, 255, 255);
-        background: url(/img/01_hello/photo.jpeg);
-        -webkit-box-shadow: 40px 40px 5px 0px rgba(229, 231, 235, 0.2);
-        -moz-box-shadow: 40px 40px 5px 0px rgba(229, 231, 235, 0.2);
-        box-shadow: 40px 40px 5px 0px rgba(229, 231, 235, 0.2);
+        background: center center no-repeat url(/img/01_hello/photo.jpeg);
+        -webkit-box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
+        -moz-box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
+        box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
+    }
+}
+
+.about-me {
+    background: rgb(249, 250, 251);
+    min-height: 962px;
+    .about-me-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .about-me-text {
+            width: 580px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    .img-photo {
+        width: 400px;
+        height: 480px;
+        border: 8px solid rgb(255, 255, 255);
+        background: center center no-repeat url(/img/02_about/photo.jpeg) ;
+        -webkit-box-shadow: -40px 40px 5px 0px rgba(75, 85, 99, 0.2);
+        -moz-box-shadow: -40px 40px 5px 0px rgba(75, 85, 99, 0.2);
+        box-shadow: -40px 40px 5px 0px rgba(75, 85, 99, 0.2);
     }
 }
