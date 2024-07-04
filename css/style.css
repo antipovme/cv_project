@@ -121,6 +121,7 @@ section {
   height: 320px;
   border: 8px solid rgb(255, 255, 255);
   background: center center no-repeat url(/img/01_hello/photo.jpeg);
+  background-size: 100% 100%;
   -webkit-box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
   -moz-box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
   box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
@@ -199,4 +200,10 @@ section {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.experience {
+  min-height: 1140px;
+  background: rgb(249, 250, 251);
+  color: rgb(75, 85, 99);
 }/*# sourceMappingURL=style.css.map */
