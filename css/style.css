@@ -19,12 +19,12 @@ section {
   padding: 96px 80px 96px 80px;
 }
 
-.subtitle {
+.title-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.subtitle h2 {
+.title-section h2 {
   text-align: center;
   padding: 4px 20px 4px 20px;
   border-radius: 12px;
@@ -33,6 +33,15 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+
+.title-text-big {
+  margin-bottom: 25px;
+  color: rgb(17, 24, 39);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
 }
 
 .menu {
@@ -120,6 +129,7 @@ section {
 .about-me {
   background: rgb(249, 250, 251);
   min-height: 962px;
+  color: rgb(75, 85, 99);
 }
 .about-me .about-me-wrapper {
   display: flex;
@@ -131,6 +141,9 @@ section {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+.about-me .about-me-wrapper .about-me-text a {
+  color: rgb(75, 85, 99);
 }
 .about-me .img-photo {
   width: 400px;
