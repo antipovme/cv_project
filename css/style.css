@@ -315,4 +315,9 @@ h3 {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+
+.contacts {
+  height: 560px;
+  background: rgb(249, 250, 251);
 }/*# sourceMappingURL=style.css.map */
