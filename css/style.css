@@ -320,4 +320,26 @@ h3 {
 .contacts {
   height: 560px;
   background: rgb(249, 250, 251);
+}
+.contacts .block-contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: rgb(17, 24, 39);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.contacts .block-contacts .block-email, .contacts .block-contacts .block-phone {
+  display: flex;
+  padding-top: 50px;
+}
+.contacts .block-contacts .block-email p, .contacts .block-contacts .block-phone p {
+  display: inline-block;
+}
+.contacts .block-contacts .block-email .icon-mail, .contacts .block-contacts .block-email .icon-phone, .contacts .block-contacts .block-phone .icon-mail, .contacts .block-contacts .block-phone .icon-phone {
+  padding-right: 15px;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
