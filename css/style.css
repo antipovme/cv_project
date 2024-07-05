@@ -342,4 +342,27 @@ h3 {
   padding-right: 15px;
   width: 100%;
   height: 100%;
+}
+
+footer {
+  padding: 24px 80px 24px 80px;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+footer .footer-icon-1 {
+  display: flex;
+}
+footer img {
+  display: block;
+  width: 20%;
+  height: 20%;
+}
+footer a {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
