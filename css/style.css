@@ -255,4 +255,64 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.work {
+  min-height: 600px;
+}
+.work .wrapper-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.work .wrapper-work .block-work {
+  padding: 50px;
+  width: 576px;
+  height: 480px;
+  box-sizing: border-box;
+  border-right: 1px solid rgb(243, 244, 246);
+  border-radius: 12px;
+  background: rgb(249, 250, 251);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+.work .wrapper-work .block-work span {
+  color: rgb(55, 65, 81);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.work .wrapper-work .block-work-text {
+  padding: 50px;
+  width: 576px;
+  height: 480px;
+  border-radius: 12px;
+  border: 1px solid rgb(243, 244, 246);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+.work .wrapper-work .block-work-text h3 {
+  color: rgb(17, 24, 39);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.work .wrapper-work .block-work-text span {
+  display: block;
+  padding: 25px 0 25px 0;
+  color: rgb(75, 85, 99);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.work .wrapper-work .block-work-text .block-js {
+  display: inline-block;
+  text-align: center;
+  padding: 4px 20px 4px 20px;
+  border-radius: 12px;
+  background: rgb(229, 231, 235);
+  color: rgb(75, 85, 99);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
