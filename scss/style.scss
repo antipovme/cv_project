@@ -36,6 +36,13 @@ section {
     }
 }
 
+h3 {
+    color: rgb(17, 24, 39);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
 .title-text-big {
     margin-bottom: 25px;
     color: rgb(17, 24, 39);
@@ -213,4 +220,38 @@ section {
     min-height: 1140px;
     background: rgb(249, 250, 251);
     color: rgb(75, 85, 99);
+    span {
+        display: block;
+        margin: 16px 0 50px;
+        color: rgb(75, 85, 99);
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+    .wrapper-exp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        .exp-block {
+            display: flex;
+            justify-content: space-between;
+            width: 900px;
+            height: 100%;
+            margin-top: 35px;
+            padding: 32px;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+            background: rgb(255, 255, 255);
+            border-radius: 12px;
+            .date-work {
+                color: rgb(55, 65, 81);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+    }
 }
