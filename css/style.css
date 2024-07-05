@@ -23,6 +23,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .title-section h2 {
   text-align: center;
@@ -33,6 +34,15 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+.title-section span {
+  display: inline-block;
+  margin: 16px 0 50px;
+  color: rgb(75, 85, 99);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
 }
 
 h3 {
@@ -179,15 +189,6 @@ h3 {
 .skills {
   min-height: 560px;
 }
-.skills span {
-  display: block;
-  margin: 16px 0 50px;
-  color: rgb(75, 85, 99);
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: center;
-}
 .skills .wrapper-skills {
   max-width: 1200px;
   margin: 0 auto;
@@ -213,15 +214,6 @@ h3 {
   min-height: 1140px;
   background: rgb(249, 250, 251);
   color: rgb(75, 85, 99);
-}
-.experience span {
-  display: block;
-  margin: 16px 0 50px;
-  color: rgb(75, 85, 99);
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: center;
 }
 .experience .wrapper-exp {
   display: flex;
@@ -254,8 +246,8 @@ h3 {
   line-height: 28px;
   padding-bottom: 10px;
 }
-.experience .wrapper-exp .exp-block .list-work li {
-  padding-top: 5px;
+.experience .wrapper-exp .exp-block .list-work ol {
+  padding-top: 10px;
 }
 .experience .wrapper-exp .exp-block .date-work {
   color: rgb(55, 65, 81);
