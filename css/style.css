@@ -8,6 +8,7 @@
 
 html {
   font-family: "Inter";
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -192,9 +193,8 @@ h3 {
 .skills .wrapper-skills {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   gap: 50px;
 }
 .skills .skills-box {
@@ -340,29 +340,22 @@ h3 {
 }
 .contacts .block-contacts .block-email .icon-mail, .contacts .block-contacts .block-email .icon-phone, .contacts .block-contacts .block-phone .icon-mail, .contacts .block-contacts .block-phone .icon-phone {
   padding-right: 15px;
-  width: 100%;
-  height: 100%;
 }
 
-footer {
-  padding: 24px 80px 24px 80px;
-  margin: 0 auto;
-  max-width: 1440px;
-  height: 80px;
+.footer-content {
+  padding: 50px;
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  align-items: center;
+  color: rgb(16, 185, 129);
 }
-footer .footer-icon-1 {
-  display: flex;
+.footer-content a {
+  text-decoration: none;
 }
-footer img {
-  display: block;
-  width: 20%;
-  height: 20%;
-}
-footer a {
-  display: block;
+.footer-content img {
+  width: 80px;
+  height: 80px;
 }/*# sourceMappingURL=style.css.map */
