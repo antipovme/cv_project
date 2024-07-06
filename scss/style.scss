@@ -1,18 +1,14 @@
 @import url('/scss/color.scss');
 @import url('/scss/shadows.scss');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
 	font-family: "Inter";
     scroll-behavior: smooth;
 }
-
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -21,7 +17,6 @@ html {
 section {
     padding: 96px 80px 96px 80px;
 }
-
 .title-section {
     display: flex;
     justify-content: center;
@@ -47,14 +42,12 @@ section {
         text-align: center;
     }
 }
-
 h3 {
     color: rgb(17, 24, 39);
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
 }
-
 .title-text-big {
     margin-bottom: 25px;
     color: rgb(17, 24, 39);
@@ -63,9 +56,6 @@ h3 {
     font-weight: 600;
     line-height: 36px;
 }
-
-
-
 .menu {
     display: flex;
     align-items: center;
@@ -88,7 +78,6 @@ h3 {
         }
     }
 }
-
 .hello {
     height: 500px;
     margin: 100px 80px;
@@ -127,7 +116,6 @@ h3 {
         }
     }
 }
-
 .location-icons {
     display: flex;
     gap: 4px;
@@ -138,7 +126,6 @@ h3 {
 
     }
 }
-
 .hello-column-2 {
     .img-photo {
         width: 280px;
@@ -151,7 +138,6 @@ h3 {
         box-shadow: 40px 40px 5px 0px rgba(75, 85, 99, 0.2);
     }
 }
-
 .about-me {
     background: rgb(249, 250, 251);
     min-height: 962px;
@@ -193,7 +179,6 @@ h3 {
         }
     }
 }
-
 .skills {
     min-height: 560px;
     .wrapper-skills {
@@ -217,7 +202,6 @@ h3 {
         }
     }
 }
-
 .experience {
     min-height: 1140px;
     background: rgb(249, 250, 251);
@@ -253,7 +237,6 @@ h3 {
                 ol {
                     padding-top: 10px;
                 }
-
             }
             .date-work {
                 color: rgb(55, 65, 81);
@@ -266,7 +249,6 @@ h3 {
 
     }
 }
-
 .work {
     min-height: 600px;
     .wrapper-work {
@@ -327,7 +309,6 @@ h3 {
         }
     }
 }
-
 .contacts {
     height: 560px;
     background: rgb(249, 250, 251);
@@ -352,7 +333,6 @@ h3 {
         }
     }
 }
-
 .footer-content {
     padding: 50px;
     display: flex;
